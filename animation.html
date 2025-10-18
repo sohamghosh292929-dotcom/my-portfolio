@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .lines {
+height:100%;
+z-index:-1;
+margin:auto;
+right:0;
+width:90vw;
+border:1px solid red;
+left:0;
+position:absolute;
+top:0;
+}
+
+.line:first-child {
+margin-left:-20%; 
+}
+
+.line {
+background:#e7e7e6;
+left:50%;
+overflow:hidden;
+position:absolute;
+top:0px;
+width:1px;
+
+}
+
+.line:after {
+    -webkit-animation: drop 5s 0s infinite;
+    animation: drop 5s 0s infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: cubic-bezier(.4,.26,0,.97);
+    animation-timing-function: cubic-bezier(.4,.26,0,.97);
+    background: linear-gradient(180deg,rgba(255,153,0,.048) 0,#ff9800 75%,#ff9800);
+    content: "";
+    display: block;
+    height: 15vh;
+    left: 0;
+    position: absolute;
+    top: -50%;
+    width: 100%;
+}
+
+.line:first-child:after, .line:nth-child(3):after {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+@keyframes drop {
+	0% {
+	top:-50%;
+	}
+	100% { 
+	top:110%;
+	}
+}
+
+
+   </style>
+
+</head>
+<body>
+   
+<div class="lines"> 
+	<div class="line">dwdw </div>
+
+</div>
+</body>
+</html>

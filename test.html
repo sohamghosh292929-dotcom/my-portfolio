@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .headerdivider {
+            width: 90px;
+            height: 4px;
+            position: relative;
+            border-radius: 8px;
+             background: #baadff;
+        }
+
+        .headerdivider::after {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            width: 15px;
+            height: 100%;
+            animation-name: loop;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            background: white;
+            left: 0;
+            bottom: 0;
+           
+        }
+
+        @keyframes loop {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(75px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="headerdivider"></div>
+</body>
+</html>
