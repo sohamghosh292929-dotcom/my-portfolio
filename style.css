@@ -1,61 +1,8 @@
-/*-----------------------------------------------------------------------------------
 
-    Template Name: Randerc - It Solutions & Services HTML Template
-    Template URI: http://rockstheme.com
-    Description: This is html5 template
-    Author: Rocks_theme
-    Author URI: http://rockstheme.com
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-
-    /*-----------------------------------------------------------------------------------  
-     CSS INDEX
-    ===================
-
-    1. Theme Default CSS (body, link color, section etc)
-    2. Header top Area
-    2.1 Header Bottom Area 
-    2.2. Sticky Header Area
-    2.3. Mobile Menu Area
-    3. Intro Area
-    4.Welcome Services Area
-    5. About area
-    6. Services Area
-    7. Counter Area
-    8. banner area css
-    9. projects Area
-    10. Quote Area
-    11.tab Area
-    12. Blog Area
-    13.Reviews Area Css
-    14. Footer Area
-    15. Home 02 area
-    16. Brand area
-    17. Team Area css
-    18. Home 03
-    19. Digital Service Area
-    20. Breadcumbs Area
-    21. Overview Area
-    22. FAQ  Area
-    23. Blog Sidebar Area
-    24. Blog Details
-    25.Contact CSS
-    26. Services Details area
-    27. Project Details page
-    28. Login and Register
-
-    
------------------------------------------------------------------------------------*/
-/*----------------------------------------*/
-/*  Google Fonts
-/*----------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700,800,900&display=swap');
 
 
-/*----------------------------------------*/
-/*  1.  Theme default CSS
-/*----------------------------------------*/
+
 html, body {
 	height: 100%;
 }
